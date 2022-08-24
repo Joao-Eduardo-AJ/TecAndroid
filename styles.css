@@ -5,13 +5,10 @@
     src: url('./fontes/idroid.otf') format('opentype');
 }
 
-:root {
-    --cor0: #c5ebd6;
-}
-
 body {
     margin: auto;
     background-color: #BCD07B;
+    font-size: 0.8em;
 }
 
 a {
@@ -36,7 +33,7 @@ ul#h>li>a {
 
 ul#h>li {
     display: inline-block;
-    padding: 10px;
+    padding: 10px 5px;
     border-radius: 5px 5px 0px 0px;
     transition: background-color 0.5s;
 }
